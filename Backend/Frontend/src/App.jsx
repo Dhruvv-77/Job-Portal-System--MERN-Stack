@@ -114,7 +114,7 @@ const appRouter = createBrowserRouter([
 function App() {
   return (
     <div>
-      
+      <Navbar />
       <RouterProvider router={appRouter}></RouterProvider>
     </div>
   );
